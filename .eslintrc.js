@@ -3,6 +3,7 @@ module.exports = {
   extends: '@react-native-community',
   rules: {
     "prettier/prettier": 0,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "quotes": 0
   }
 };
