@@ -3,7 +3,6 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow
  */
 // TODO https://reactnative.cn/docs/props/
 
@@ -25,6 +24,11 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Bananas from "./kkk/learn/TestImage";
+import TestFlex from "./kkk/learn/TestFlex";
+import PizzaTranslator from "./kkk/learn/HandlingTextInput";
+import HandlingTouches from "./kkk/learn/HandlingTouches";
+import { FlatListBasics } from "./kkk/learn/usingAListView"
 
 const App = () => {
   return (
@@ -35,6 +39,9 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
+          <FlatListBasics />
+          <HandlingTouches />
+          <PizzaTranslator />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
@@ -42,6 +49,7 @@ const App = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
+              <Bananas />
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
@@ -67,6 +75,9 @@ const App = () => {
               </Text>
             </View>
             <LearnMoreLinks />
+          </View>
+          <View style={{height: 700}}>
+            <TestFlex />
           </View>
         </ScrollView>
       </SafeAreaView>
