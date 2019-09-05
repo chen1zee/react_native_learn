@@ -5,8 +5,8 @@ const path = require("path")
 module.exports = {
   resolve: {
     alias: {
-      /** kkk */
-      // "$kkk": path.resolve(__dirname, "./kkk")
+      /** jsProSrc */
+      "_$$_jsProSrc": path.resolve(__dirname, "./jsProSrc")
     }
   }
 }

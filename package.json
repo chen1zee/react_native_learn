@@ -7,7 +7,8 @@
     "run:android": "react-native run-android",
     "run:ios": "react-native run-ios",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "yarn:reset:cache": "yarn start --reset-cache"
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",

@@ -4,8 +4,6 @@
  *
  * @format
  */
-// TODO https://reactnative.cn/docs/props/
-
 
 import React, {Fragment} from 'react';
 import {
@@ -24,11 +22,11 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import Bananas from "./kkk/learn/TestImage";
-import TestFlex from "./kkk/learn/TestFlex";
-import PizzaTranslator from "./kkk/learn/HandlingTextInput";
-import HandlingTouches from "./kkk/learn/HandlingTouches";
-import { FlatListBasics } from "./kkk/learn/usingAListView"
+import Bananas from "./jsProSrc/learn/TestImage";
+import TestFlex from "./jsProSrc/learn/TestFlex";
+import PizzaTranslator from "./jsProSrc/learn/HandlingTextInput";
+import HandlingTouches from "./jsProSrc/learn/HandlingTouches";
+import { FlatListBasics } from "./jsProSrc/learn/usingAListView"
 
 const App = () => {
   return (
